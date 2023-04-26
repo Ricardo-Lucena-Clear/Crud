@@ -5,7 +5,7 @@ import React from 'react'
 
 import Logo from '../template/Logo'
 import Nav from '../template/Nav'
-import Main from '../template/Main'
+import Home from '../home/Home'
 import Footer from '../template/Footer'
 import Header from '../template/Header'
 
@@ -14,7 +14,6 @@ export default props =>
     <Logo/>
     <Nav/>
     <Header/>
-    <Main icon="home" title="Inicio"
-    subtitle="Segundo Projeto do capitulo de React"/>
+    <Home/>
     <Footer/>
 </div>
